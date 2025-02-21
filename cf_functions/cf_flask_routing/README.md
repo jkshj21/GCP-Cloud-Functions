@@ -33,7 +33,7 @@ curl -X POST https://<YOUR_CLOUD_FUNCTION_URL> \
 -H "Content-Type: application/json" \
 -d '{
   "name": "Developer"
-}'
+}'```
 
 ### 2. `update_user()` (POST)
 
@@ -45,7 +45,7 @@ curl -X POST https://<YOUR_CLOUD_FUNCTION_URL>/user/123 \
 -H "Content-Type: application/json" \
 -d '{
   "name": "Developer"
-}'
+}'```
 
 ### 3. `delete_user()` (DELETE)
 
@@ -57,4 +57,4 @@ curl -X DELETE https://<YOUR_CLOUD_FUNCTION_URL>/user/123 \
 -H "Content-Type: application/json" \
 -d '{
   "name": "Developer"
-}'
+}'```
