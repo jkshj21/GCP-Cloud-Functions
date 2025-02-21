@@ -33,5 +33,31 @@ curl -X POST https://<YOUR_CLOUD_FUNCTION_URL> \
 -H "Content-Type: application/json" \
 -d '{
   "name": "Developer"
-}'```
+}'
+```
+
+### 2. `update_user(id)` (POST)
+
+This function handles requests to the root path.  Test it using the following `curl` command in the Cloud Console:
+
+```bash
+curl -X POST https://<YOUR_CLOUD_FUNCTION_URL>/user/123 \
+-H "Authorization: bearer $(gcloud auth print-identity-token)" \
+-H "Content-Type: application/json" \
+-d '{
+  "name": "Developer"
+}'
+```
+
+### 2. `delete_user(id)` (POST)
+
+This function handles requests to the root path.  Test it using the following `curl` command in the Cloud Console:
+
+```bash
+curl -X DELETE https://<YOUR_CLOUD_FUNCTION_URL>/user/123 \
+-H "Authorization: bearer $(gcloud auth print-identity-token)" \
+-H "Content-Type: application/json" \
+-d '{
+  "name": "Developer"
+}'
 
