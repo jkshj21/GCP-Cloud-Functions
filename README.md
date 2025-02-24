@@ -11,13 +11,11 @@
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary>Table of Contents</summary>
-  <ol>
     <li>
-      <ul>
-        <li><a href="#Deploying a Cloud Function using `gcloud`">How to deploy a Cloud Function?</a></li>
-      </ul>
+        <ul>
+            <li><a href="#Deploying a Cloud Function using `gcloud`">How to deploy a Cloud Function?</a></li>
+        </ul>
     </li>
-  </ol>
 </details>
 
 <!-- INTRODUCTION -->
