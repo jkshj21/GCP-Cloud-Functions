@@ -6,7 +6,7 @@ from typing import Optional, Dict, Any, List
 from google.cloud.discoveryengine_v1beta import types
 from google.api_core import datetime_helpers
 
-from search import Search
+from engines import Engines
 from google.cloud.discoveryengine_v1beta import types
 
 def search_route_controller(data):
@@ -98,7 +98,7 @@ def query_by_search(query: str) -> Dict[str, Any]:
         "data_store_id": datastore_id,
         "query": query
     }
-    s = Search()
+    s = Engines()
     try:
         res = s.query_by_search(search_config=search_config, total_results=1)
     except Exception as e:
@@ -134,7 +134,7 @@ def query_by_answer(query: str, session: Optional[str] = None) -> Dict[str, Any]
     }
     answer_config["session"] = session.name if session else f"{datastore_id}/sessions/-"
 
-    s = Search()
+    s = Engines()
     try:
         res = s.query_by_answer(answer_config=answer_config, related_question=True)
     except Exception as e:
@@ -218,7 +218,7 @@ def query_by_conversation(query: str, session: Dict[str, Any] = None) -> Dict[st
     }
     conv_config["conversation"] = build_conv_session(session) if session else None
 
-    s = Search()
+    s = Engines()
     try:
         res = s.query_by_conversation(conv_config=conv_config, conversation=conv_config["conversation"])
     except Exception as e:
