@@ -50,6 +50,7 @@ This document provides instructions on how to deploy a Google Cloud Function usi
 ## Example
 
 ```bash
+#Navigate to Function Directory; for this example, it should be cd './cf_functions/cf_datastore_apps'
 gcloud functions deploy my-http-function \
 --gen2 \
 --runtime python310 \
