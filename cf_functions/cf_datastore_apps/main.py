@@ -9,7 +9,7 @@ from routers import answer_route_controller, search_route_controller, conversati
 app = Flask(__name__)
 
 @app.route('/conversation', methods=['GET', 'POST'])
-def ask_by_covnersation():
+def use_conversation():
     """
     Handles conversation requests.
 
@@ -23,7 +23,7 @@ def ask_by_covnersation():
     return fetch_wb_for_conversation(response)
 
 @app.route('/search', methods=['GET', 'POST'])
-def ask_by_search():
+def use_search():
     """
     Handles search requests.
 
@@ -37,7 +37,7 @@ def ask_by_search():
     return fetch_wb_for_search(response)
 
 @app.route('/answer', methods=['GET', 'POST'])
-def ask_by_answer():
+def use_answer():
     """
     Handles answer requests.
 
