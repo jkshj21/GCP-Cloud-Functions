@@ -21,7 +21,7 @@
 </details>
 
 <!-- INTRODUCTION -->
-# Deploying a Cloud Function using `gcloud`
+## Deploying a Cloud Function using `gcloud`
 
 This document provides instructions on how to deploy a Google Cloud Function using the `gcloud` command-line tool.
 
