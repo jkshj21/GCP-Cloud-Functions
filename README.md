@@ -2,9 +2,9 @@
 <div align="center">
     <img src="images/logo.png" alt="Scrappy, the SCRAPI mascot!" width="200">
 
-  <h3 align="center">Python Dialogflow CX Scripting API (SCRAPI)</h3>
+  <h3 align="center">Python CCAI-Functions-Toolkit</h3>
   <p align="center">
-    A high level scripting API for bot builders, developers, and maintainers.<br>
+    The ccai-functions-toolkit repository provides a collection of Google Cloud Functions designed to enhance and extend the capabilities of Google Cloud's Conversational AI (CCAI) platform, particularly Dialogflow CX.<br>
   </p>
 </div>
 
