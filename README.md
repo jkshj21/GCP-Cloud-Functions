@@ -1,6 +1,6 @@
 <!-- PROJECT LOGO -->
 <div align="center">
-    <img src="https://github.com/jkshj21/gcp-ccai-functions-toolkit/blob/main/images/toolkit_log.png" alt="toolkit" width="200">
+    <img src="https://github.com/jkshj21/gcp-ccai-functions-toolkit/blob/main/images/toolkit_log.png" alt="toolkit" width="1000">
 
   <h3 align="center">Python CCAI-Functions-Toolkit</h3>
   <p align="center">
