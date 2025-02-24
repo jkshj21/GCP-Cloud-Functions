@@ -1,4 +1,4 @@
-# Cloud Function for GCP Discovery Engine Integration (Search, Answer, Conversation)
+# Cloud Function for Google Cloud Discovery Engine Integration (Search, Answer, Conversation)
 
 This Cloud Function demonstrates how to integrate Google Cloud Discovery Engine's Search, Answer, and Conversation engines with GCP Dialogflow CX via HTTP requests.
 
@@ -39,7 +39,7 @@ This Cloud Function utilizes Datastores in conjunction with the following Discov
 
 The Cloud Function exposes the following HTTP POST endpoints:
 
-### 1. `ask_by_conversation()` (/conversation)
+### 1. `use_conversation()` (/conversation)
 
 ```bash
 curl -X POST https://<YOUR_CLOUD_FUNCTION_URL>/conversation \
@@ -50,7 +50,7 @@ curl -X POST https://<YOUR_CLOUD_FUNCTION_URL>/conversation \
 }'
 ```
 
-### 2. `ask_by_search()` (/search)
+### 2. `use_search()` (/search)
 
 ```bash
 curl -X POST https://<YOUR_CLOUD_FUNCTION_URL>/search \
@@ -61,7 +61,7 @@ curl -X POST https://<YOUR_CLOUD_FUNCTION_URL>/search \
 }'
 ```
 
-### 3. `ask_by_answer()` (/answer)
+### 3. `use_answer()` (/answer)
 
 ```bash
 curl -X POST https://<YOUR_CLOUD_FUNCTION_URL>/answer \
