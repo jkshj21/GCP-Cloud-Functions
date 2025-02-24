@@ -2,7 +2,7 @@
 <div align="center">
     <img src="https://github.com/jkshj21/gcp-ccai-functions-toolkit/blob/main/images/toolkit_log.png" alt="toolkit" width="1000">
 
-  <h1 align="center">Python CCAI-Functions-Toolkit</h1>
+  <h1 align="center">GCP CCAI-Functions-Toolkit</h1>
   <p align="center">
     The ccai-functions-toolkit repository provides a collection of Google Cloud Functions designed to enhance and extend the capabilities of Google Cloud's Conversational AI (CCAI) platform, particularly Dialogflow CX.<br>
   </p>
