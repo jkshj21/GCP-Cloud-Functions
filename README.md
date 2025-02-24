@@ -1,6 +1,6 @@
 <!-- PROJECT LOGO -->
 <div align="center">
-    <img src="images/toolkit_logo.png" alt="Scrappy" width="200">
+    <img src="images/toolkit_logo.png" alt="toolkit" width="200">
 
   <h3 align="center">Python CCAI-Functions-Toolkit</h3>
   <p align="center">
