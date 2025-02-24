@@ -1,3 +1,47 @@
+<!-- PROJECT LOGO -->
+<div align="center">
+    <img src="images/logo.png" alt="Scrappy, the SCRAPI mascot!" width="200">
+
+  <h3 align="center">Python Dialogflow CX Scripting API (SCRAPI)</h3>
+  <p align="center">
+    A high level scripting API for bot builders, developers, and maintainers.<br>
+  </p>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#introduction">Introduction</a>
+      <ul>
+        <li><a href="#what-can-i-do-with-dfcx-scrapi">What Can I Do with SCRAPI?</a></li>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#environment-setup">Environment Setup</a></li>
+        <li><a href="#authentication">Authentication</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a>
+    <li>
+      <a href="#library-composition">Library Composition</a>
+      <ul>
+        <li><a href="#core">Core</a></li>
+        <li><a href="#tools">Tools</a></li>
+      </ul>
+    </li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
+  </ol>
+</details>
+
+<!-- INTRODUCTION -->
 # Deploying a Cloud Function using `gcloud`
 
 This document provides instructions on how to deploy a Google Cloud Function using the `gcloud` command-line tool.
