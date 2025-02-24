@@ -15,29 +15,9 @@
     <li>
       <a href="#introduction">Introduction</a>
       <ul>
-        <li><a href="#what-can-i-do-with-dfcx-scrapi">What Can I Do with SCRAPI?</a></li>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#Deploying a Cloud Function using `gcloud`">How to deploy a Cloud Function?</a></li>
       </ul>
     </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#environment-setup">Environment Setup</a></li>
-        <li><a href="#authentication">Authentication</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a>
-    <li>
-      <a href="#library-composition">Library Composition</a>
-      <ul>
-        <li><a href="#core">Core</a></li>
-        <li><a href="#tools">Tools</a></li>
-      </ul>
-    </li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
 
