@@ -1,4 +1,4 @@
-# GCP Cloud Function with Flask Routing
+# Google's Cloud Function with Flask Routing
 
 This Cloud Function demonstrates how to use Flask routing to handle multiple HTTP requests within a single Cloud Function. This approach centralizes functionality and is more efficient than deploying multiple individual Cloud Functions.
 
