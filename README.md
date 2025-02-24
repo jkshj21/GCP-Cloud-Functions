@@ -13,7 +13,6 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#introduction">Introduction</a>
       <ul>
         <li><a href="#Deploying a Cloud Function using `gcloud`">How to deploy a Cloud Function?</a></li>
       </ul>
