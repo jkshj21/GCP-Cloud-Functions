@@ -15,7 +15,13 @@
         <li><a href="#Deploying a Cloud Function using `gcloud`">How to deploy a Cloud Function?</a></li>
     </ul>
     <ul>
-        <li><a href="#Deploying a Cloud Function using `gcloud`">List of Cloud Functions</a></li>
+        <li><a href="#Deploying a Cloud Function using `gcloud`">List of Cloud Functions</a>
+            <ul>
+                <li><a>Cloud Function with Flask Routing</a></li>
+                <li><a>Cloud Function for GCP Discovery Engine Integration </a></li>
+                <li><a>Cloud Function for Vector Store RAG Agent </a></li>
+            </ul>
+        </li>
     </ul>
 </details>
 
