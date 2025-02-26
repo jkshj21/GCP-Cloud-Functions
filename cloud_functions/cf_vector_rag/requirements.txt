@@ -1,0 +1,12 @@
+functions-framework==3.*
+flask
+dfcx-scrapi
+google-cloud-aiplatform
+langchain-google-vertexai
+langchain-google-community[featurestore]
+unstructured
+unstructured[pdf]
+langchain-google-community[gcs]
+langchain_google_community
+pypdf==4.2.0
+google-cloud-bigquery
