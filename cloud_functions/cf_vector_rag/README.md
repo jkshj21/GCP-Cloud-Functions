@@ -15,14 +15,8 @@ This Cloud Function demonstrates the following:
 
 ## Use Case
 
-This pattern is particularly useful when working with GCP Dialogflow CX webhooks, where a single webhook might need to trigger various backend operations, such as:
+Integration of Diaglow CX and RAG (Vector Store)
 
-* Updating backend systems
-* Training LLMs
-* Generating responses
-* Setting parameters
-
-Consolidating these functions into one Cloud Function simplifies management and deployment.
 
 ## Setup
 
